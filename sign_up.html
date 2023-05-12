@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sign_up.css">
+    <title>Sign up</title>
+</head>
+<body>
+    <form>
+     <div class="signup-box">
+        <h1>Sign Up</h1>
+        <h4>Its free and only takes a minute</h4>
+        <label> First Name</label>
+        <input type="text" placeholder="Enter your first name">
+        <label> Last Name</label>
+        <input type="text" placeholder="Enter your last name">
+        <label>E-mail</label>
+        <input type="email" placeholder="Enter your e-mail">
+        <label>Password</label>
+        <input type="password" placeholder="Enter your password">
+        <label> Confirm Password</label>
+        <input type="password" placeholder="Confirm your password">
+
+        <button type="order" class="button" onclick="openPopup()" >
+            Submit
+        </button>
+    </form>
+    <p>
+        By clicking the Sign up button, you agree to our <br>
+        <a href="#">Terms and Condition </a> and <a href="#">Privacy and Policy</a>
+    </p>
+     </div>
+     <p class="para-2">Already have an account? <a href="http://127.0.0.1:5500/login.html">Login here</a>
+     </p>
+
+     <div>
+        <div class="popup" id="popup">
+            <img src="https://media.istockphoto.com/id/503451933/photo/green-checkmark.jpg?s=612x612&w=0&k=20&c=own8caimCiRrUqYsfusNdY3vaizeSm9h4Ar4oXCi1-0=" alt="Not loaded yet" style="width:200px;height:200px">
+            <h2 style="color:rgb(34, 127, 208)">Thank You!</h2>
+            <p style="color:rgb(14, 188, 84);font-size:24px;">You have successfully Signed Up</p>
+            <button type="button" onclick="closePopup()">OK</button>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- JAVASCRIPT --> 
+
+
+    <script>
+        let popup=document.getElementById("popup");
+        function openPopup(){
+            popup.classList.add("open-popup");
+        }
+        function closePopup(){
+            popup.classList.remove("open-popup");
+        }
+    </script>
+
+
+
+</body>
+
+
+
+
+
+</html>

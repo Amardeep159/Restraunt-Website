@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Login </title>
+</head>
+<body>
+    <body>
+    
+        <div class="login-box">
+            <h1>Login</h1>
+            <form >
+                <label> Email</label>
+                <input type="email" placeholder="Enter the email">
+                <label> Password</label>
+                <input type="password" placeholder="Enter the password">
+    
+                <button type="order" class="button" onclick="openPopup()" >
+                    Submit
+                </button>
+            </form>
+    
+        </div>
+        <p>Not have an account? <a href="http://127.0.0.1:5500/sign_up.html#"> Sign Up here </a> </p>
+    
+        <div>
+            <div class="popup" id="popup">
+                <img src="https://media.istockphoto.com/id/503451933/photo/green-checkmark.jpg?s=612x612&w=0&k=20&c=own8caimCiRrUqYsfusNdY3vaizeSm9h4Ar4oXCi1-0=" alt="Not loaded yet" style="width:200px;height:200px">
+                <h2 style="color:rgb(34, 127, 208)">Thank You!</h2>
+                <p style="color:rgb(14, 188, 84);font-size:24px;">Click on the 'OK' button to go to the home page</p>
+                <button type="button" onclick="closePopup()">OK</button>
+            </div>
+            </div>
+      
+
+         <!-- JAVASCRIPT --> 
+
+
+    <script>
+        let popup=document.getElementById("popup");
+        function openPopup(){
+            popup.classList.add("open-popup");
+        }
+        function closePopup(){
+            popup.classList.remove("open-popup");
+        }
+    </script>
+    
+    </body>
+    
+</body>
+</html>
