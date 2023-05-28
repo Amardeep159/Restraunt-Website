@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="About_us_new.css">
+    <title>About Us</title>
+</head>
+<body>
+    <div class="top">
+        <h1>About Us</h1>
+    </div>
+   
+
+    <div class="heading">
+        <p>
+            Welcome to "THE MEGA BITE", where exquisite flavours and warm hospitality come together to create an unforgettable dining experience. We take pride in being one of the most beloved and sought-after restaurants in City. Whether you're a local food enthusiast or a visitor exploring the culinary delights of our city, we invite you to embark on a remarkable gastronomic journey with us.
+        </p>
+    </div>
+    <div class="container">
+        <section class="about">
+            <div class="about-image">
+                <img src="About-us-new-image.avif" alt="Not loaded">
+            </div>
+            <div class="about-content">
+                <h2>Eating is a necessity, but cooking is an art.</h2>
+                <p>At THE MEGA BITE, we believe that great food starts with the finest ingredients. Our passionate team of chefs carefully sources fresh, locally-sourced produce, handpicking the best seasonal ingredients to infuse every dish with exceptional flavor. From farm-to-table greens to succulent meats and seafood, we are dedicated to delivering a dining experience that surpasses expectations.</p>
+                <button class="read-more" onclick="openPopup()">Read More</button>
+            </div>
+
+        </section>
+    </div>
+    <div id="hidden-content">
+        <p>Step inside our elegant and inviting space, where contemporary design blends harmoniously with a warm and welcoming ambiance. Our stylish decor sets the stage for a relaxed and comfortable atmosphere, perfect for intimate dinners, family gatherings, or special celebrations. Our attentive staff is committed to providing impeccable service, ensuring that your every need is met with a genuine smile.</p>
+        <br><br>
+
+        <p>
+            Our menu is a celebration of culinary mastery, where traditional and innovative flavors converge to create a symphony of taste. From signature dishes inspired by global cuisines to locally-inspired creations, our menu caters to a diverse range of palates. Whether you're a fan of classic favorites or seeking adventurous culinary delights, our menu offers a delightful array of options that will tantalize your taste buds.
+        </p>
+        <br><br>
+        <p>
+            To complement your dining experience, our expertly curated wine list boasts a selection of both Old and New World wines. Our sommeliers are always on hand to guide you through the perfect pairing, enhancing your meal and elevating your enjoyment to new heights. We also offer an array of handcrafted cocktails and artisanal spirits, crafted with precision and care by our talented mixologists.
+        </p>
+        <br><br>
+        <p>
+            At "THE MEGA BITE", we understand that exceptional dining experiences extend beyond the plate. That's why we strive to create a memorable journey for all your senses. From the enticing aromas emanating from our kitchen to the beautifully presented dishes that grace your table, every detail is meticulously crafted to ensure an unforgettable experience.
+       
+    </p>
+    <br><br>
+
+        <p>
+            We look forward to welcoming you to [Restaurant Name], where culinary excellence meets warm hospitality. Join us for an extraordinary dining adventure, where every visit is an opportunity to indulge in remarkable flavors, create lasting memories, and savor the true essence of fine dining.
+        </p>
+        <br><br>
+        <button class="read-less" onclick="closePopup()"> Read less</button>
+    </div>
+    <script>
+        let popup=document.getElementById("hidden-content");
+        function openPopup(){
+            popup.style.visibility="visible";
+        }
+        function closePopup(){
+            popup.style.visibility="hidden";
+        }
+        
+    </script>
+</body>
+
+</html>
