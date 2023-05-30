@@ -1,0 +1,107 @@
+.box {
+    position: absolute;/*for keeping changing text on the same line*/
+    /* display: grid; */
+    /* align-items: center; */
+    /* text-align: center; */
+    /* border: 2px solid black; */
+    font-size: 35px;
+    opacity: 0;
+    width: 63%;
+    margin-top: 30px;
+    font-family: "Satisfy", "cursive";
+    font-style: italic;
+    color: white;
+    
+
+}
+
+#b1 {
+    animation: ani1 15s infinite;
+
+}
+
+#b2 {
+    animation: ani2 15s infinite;
+}
+
+#b3 {
+    animation: ani3 15s infinite;
+}
+
+#b4 {
+    animation: ani4 15s infinite;
+}
+
+#b5 {
+    animation: ani5 15s infinite;
+}
+
+@keyframes ani1 {
+    0% {
+        opacity: 0;
+    }
+
+    10% {
+        opacity: 1
+    }
+
+    20% {
+        opacity: 0;
+    }
+}
+
+@keyframes ani2 {
+    20% {
+        opacity: 0;
+    }
+
+    30% {
+        opacity: 1;
+    }
+
+    40% {
+        opacity: 0;
+    }
+}
+
+@keyframes ani3 {
+    40% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    60% {
+        opacity: 0;
+    }
+}
+
+@keyframes ani4 {
+    60% {
+        opacity: 0;
+    }
+
+    70% {
+        opacity: 1;
+    }
+
+    80% {
+        opacity: 0;
+    }
+}
+
+@keyframes ani5 {
+    80% {
+        opacity: 0;
+    }
+
+    90% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
