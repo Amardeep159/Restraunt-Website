@@ -6,26 +6,37 @@
     background-attachment:fixed;
     
 }
+body{
+    background-image: url("https://e0.pxfuel.com/wallpapers/441/280/desktop-wallpaper-artistic-blue-background-blue-decent.jpg");
+}
+h4{
+    color:#f63838;
+}
+.price{
+    color:rgb(231, 224, 19);
+    font-size: 30px;
+    margin-left:26%;
+}
 h1{
     text-emphasis-color:initial;
     text-shadow: 10lvb;
-    color:rgb(51, 232, 23);
+    color:rgb(226, 253, 75);
     text-align:center;
     padding:30px;
     font-weight:bold;
     font-family:cursive;
     font-size: 72px;
-    transform:translate(100%);
-    animation:scrolling 7s linear infinite;
+    /* transform:translate(100%);
+    animation:scrolling 7s linear infinite; */
 }
-@keyframes scrolling{
+/* @keyframes scrolling{
     0%{
     transform:translate(100%);
     }
     100%{
     transform:translate(-100%);
     }
-}
+} */
 .items{
     display:grid;
     grid-template-columns: repeat(3,1fr);
@@ -153,8 +164,4 @@ h1{
     padding:3px 10px;
     cursor:pointer;
 }
-.price{
-    color:rgb(231, 224, 19);
-    font-size: 30px;
-    margin-left:26%;
-}
+

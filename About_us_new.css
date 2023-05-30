@@ -3,9 +3,13 @@
     padding:0px;
     box-sizing: border-box;
     font-family: 'Roboto',sans-serif;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
 }
 body{
-    background-color: rgb(244, 244, 244);
+    /* background-color:rgb(236, 182, 245); */
+    background-image: url("https://img.freepik.com/free-vector/elegant-pastel-color-beautiful-background_1017-33496.jpg");
 }
 .top{
     width:100%;
